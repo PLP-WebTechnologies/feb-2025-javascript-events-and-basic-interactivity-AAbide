@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1> Welcome, I'm Learning JS Event Handling!</h1>
+  </header>
+
+  <!-- Event Buttons -->
+  <section>
+    <button id="clickBtn">Click Me</button>
+    <button id="hoverBtn">Hover Over Me</button>
+    <p id="keyInfo">Press any key...</p>
+    <button id="secretBtn">Double Click Me</button>
+  </section>
+
+  <!-- Image Gallery -->
+  <section>
+    <h2>Image Gallery</h2>
+    <img id="galleryImage" src="https://images.pexels.com/photos/31884207/pexels-photo-31884207/free-photo-of-green-sea-turtle-glides-under-sunlit-ocean-waters.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="Gallery" width="300">
+    <br>
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+  </section>
+
+  <!-- Accordion Tabs -->
+  <section>
+    <h2>FAQ</h2>
+    <div class="accordion">
+      <button class="accordion-btn">What is JavaScript?</button>
+      <div class="accordion-content">JavaScript is a programming language for the web.</div>
+
+      <button class="accordion-btn">Why learn it?</button>
+      <div class="accordion-content">It brings interactivity to your websites!</div>
+    </div>
+  </section>
+
+  <!-- Form Validation -->
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <span id="emailError" class="error"></span><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+      <span id="passError" class="error"></span><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
